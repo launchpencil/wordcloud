@@ -4,6 +4,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 from janome.tokenizer import Tokenizer
 from collections import Counter
+import japanize_matplotlib
 
 st.title("議案書審議分析")
 
