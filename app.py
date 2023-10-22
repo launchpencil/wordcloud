@@ -8,7 +8,7 @@ import japanize_matplotlib
 
 st.title("議案書審議分析")
 
-uploaded_file = st.file_uploader("Excelファイルをアップロードしてください", type=["xlsx"])
+uploaded_file = st.file_uploader("「議案書審議」と書かれたExcelファイルをアップロードしてください", type=["xlsx"])
 
 font_path = 'ipaexg.ttf'
 
