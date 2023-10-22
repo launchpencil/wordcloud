@@ -9,7 +9,7 @@ st.title("議案書審議分析")
 
 uploaded_file = st.file_uploader("Excelファイルをアップロードしてください", type=["xlsx"])
 
-font_path = '/Library/Fonts/Arial Unicode.ttf'
+font_path = 'ipaexg.ttf'
 
 # Matplotlibのフォント設定
 plt.rcParams['font.family'] = 'MS Gothic'
