@@ -21,6 +21,9 @@ if uploaded_file is not None:
     except Exception as e:
         st.error(f"エラー: {e}")
     else:
+        st.subheader('分析結果')
+        
+        st.write(df)
 
         filter_column = '種別'
 
