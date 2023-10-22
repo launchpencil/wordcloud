@@ -12,7 +12,7 @@ uploaded_file = st.file_uploader("Excelファイルをアップロードして�
 #font_path = 'ipaexg.ttf'
 
 # Matplotlibのフォント設定
-plt.rcParams['font.family'] = 'IPAexGothic'
+plt.rcParams['font.family'] = 'Yu Gothic'
 
 if uploaded_file is not None:
     try:
@@ -45,6 +45,7 @@ if uploaded_file is not None:
             height=400, 
             background_color="white",  # 背景を白に設定
             #font_path=font_path
+            font='Yu Gothic'
         ).generate(analyzed_text)
 
         # ワードクラウドを表示
