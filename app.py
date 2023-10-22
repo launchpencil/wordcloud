@@ -9,10 +9,10 @@ st.title("議案書審議分析")
 
 uploaded_file = st.file_uploader("Excelファイルをアップロードしてください", type=["xlsx"])
 
-#font_path = 'ipaexg.ttf'
+font_path = 'ipaexg.ttf'
 
 # Matplotlibのフォント設定
-plt.rcParams['font.family'] = 'Yu Gothic'
+plt.rcParams['font.family'] = 'IPAexGothic'
 
 if uploaded_file is not None:
     try:
@@ -44,7 +44,7 @@ if uploaded_file is not None:
             width=400,
             height=400, 
             background_color="white",  # 背景を白に設定
-            #font_path=font_path
+            font_path=font_path
         ).generate(analyzed_text)
 
         # ワードクラウドを表示
