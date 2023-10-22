@@ -12,7 +12,7 @@ uploaded_file = st.file_uploader("Excelファイルをアップロードして�
 #font_path = 'ipaexg.ttf'
 
 # Matplotlibのフォント設定
-plt.rcParams['font.family'] = 'MS Gothic'
+plt.rcParams['font.family'] = 'IPAexGothic'
 
 if uploaded_file is not None:
     try:
